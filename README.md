@@ -1,27 +1,25 @@
-# Angular
+# Serverize & Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+## Guide
 
-## Development server
+Check the complete guide here: https://serverize.sh/guides/angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Deploy from your machine
 
-## Code scaffolding
+First, create an account or login to your Serverize account.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- To create an account, run:
+  `npx serverize auth signup`
 
-## Build
+- To login, run:
+  `npx serverize auth login`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Then, run the following command to deploy your app:
 
-## Running unit tests
+`npx serverize deploy -p <project-name>`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Deploy - CI/CD (Github Actions)
 
-## Running end-to-end tests
+Follow this guide: https://serverize.sh/guides/ci-cd/
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Happy Serverizing!
